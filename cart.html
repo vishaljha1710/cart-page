@@ -270,6 +270,9 @@ document.getElementById("grosstotal").textContent = grossTotal.toFixed(2);
 
 const tax =grossTotal*0.18;
 document.getElementById("tax").textContent = tax.toFixed(2);
+
+const totalpay =grossTotal+tax;
+document.getElementById("totalpay").textContent = totalpay.toFixed(2);
     });
 </script>
 
