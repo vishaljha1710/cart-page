@@ -76,6 +76,7 @@ dropdowncreatine.addEventListener("change", function() {
     const totalpay = grossTotal + tax;
     document.getElementById("totalpay").textContent = totalpay.toFixed(2);
 });
+```javascript
 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
